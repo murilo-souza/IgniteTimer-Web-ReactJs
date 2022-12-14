@@ -1,3 +1,12 @@
+import { ThemeProvider } from "styled-components";
+import { GlobalStyle } from "./styles/global";
+import { defaultTheme } from "./styles/themes/default";
+
 export function App() {
-  return <h1>kiwnwbdfyuwb</h1>;
+  return (
+    <ThemeProvider theme={defaultTheme}>
+      <GlobalStyle />
+      <h1>kiwnwbdfyuwb</h1>
+    </ThemeProvider>
+  );
 }
