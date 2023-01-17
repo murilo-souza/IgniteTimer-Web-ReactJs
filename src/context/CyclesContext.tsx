@@ -41,14 +41,14 @@ export function CycleContextProvider({ children }: CyclesContextProviderProps) {
       cycles: [],
       activeCycleId: null,
     },
-    () => {
-      const storedStateAsJSON = localStorage.getItem(
-        '@IgniteTimer:cycles-state-1.0.0',
-      )
-      if (storedStateAsJSON) {
-        return JSON.parse(storedStateAsJSON)
-      }
-    },
+    // () => {
+    //   const storedStateAsJSON = localStorage.getItem(
+    //     '@IgniteTimer:cycles-state-1.0.0',
+    //   )
+    //   if (storedStateAsJSON) {
+    //     return JSON.parse(storedStateAsJSON)
+    //   }
+    // },
   )
 
   const { cycles, activeCycleId } = cyclesState
