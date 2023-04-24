@@ -30,3 +30,7 @@
 
 <h2>Layout</h2>
 <p>To see the complet layout of the application, access the <a href="https://www.figma.com/file/N7iwhwqkD16NNNZxnlgj3P/Ignite-Timer-(Community)?node-id=0%3A1&t=khxXWlt5DjqNRlQ5-0">Link</a></p>
+
+<h2>Video</h2>
+<p>To watch the application video, access the <a href="https://www.linkedin.com/posts/murilo-leme-de-souza_react-reactjs-developer-activity-7029553944167165952-P_vJ?utm_source=share&utm_medium=member_desktop">Link<a/>
+
